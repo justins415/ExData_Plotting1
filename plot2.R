@@ -1,8 +1,8 @@
 ## This script plots the Global Active Power for 2/1 & 2/2/2007.
 ## It includes all data points measured each minute for 2 days.
 ## It sends a plot to the screen and also creates a PNG file.
-## It needs to be in the same folder as the text file:
-## "household_power_consumption.txt" 
+## It needs to have the text file available at:
+## "./data/household_power_consumption.txt" 
 ## and it only reads part of the file to get Feb 1 and 2, 2007.
 
 par(mfrow=c(1,1))
